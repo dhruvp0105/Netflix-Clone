@@ -15,7 +15,7 @@ const Navbar = () => {
       if (window.scrollY >= 80) {
         navRef.current.classList.add('nav-dark');
       }
-      else{
+      else {
         navRef.current.classList.remove('nav-dark');
       }
     })
@@ -42,7 +42,7 @@ const Navbar = () => {
           <img src={profile_icon} alt='profile-img' className='profile'></img>
           <img src={caret_icon} alt='caret-img' className='icons'></img>
           <div className="dropdown">
-            <p onClick={()=>{logout()}}>Sign Out of Netflix</p>
+            <p onClick={() => { logout() }}>Sign Out of Netflix</p>
           </div>
         </div>
       </div>

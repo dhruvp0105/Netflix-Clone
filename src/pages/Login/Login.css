@@ -94,15 +94,16 @@
     justify-content: center;
 }
 
-.login-spinner img{
+.login-spinner img {
     width: 60px;
 }
 
-@media (max-width:500px){
-    .login{
+@media (max-width:500px) {
+    .login {
         padding: 15px 5%;
     }
-    .login-form{
+
+    .login-form {
         padding: 20px;
         margin-top: 30px;
     }
